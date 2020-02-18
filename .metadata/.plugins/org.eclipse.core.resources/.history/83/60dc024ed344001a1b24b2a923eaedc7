@@ -1,0 +1,19 @@
+package apiTesting;
+
+import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
+
+public class LearnSoftAssert {
+	
+	@Test
+	public void test1()
+	{
+		SoftAssert asser= new SoftAssert();
+		
+		
+		
+		
+	}
+	
+
+}

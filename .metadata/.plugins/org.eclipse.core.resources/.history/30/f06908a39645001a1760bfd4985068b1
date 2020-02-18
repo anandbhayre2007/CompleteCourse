@@ -1,0 +1,6 @@
+Feature: Login feature
+
+  Scenario: To test login feature
+    Given I want to write a step with precondition
+    When I complete action
+    Then I validate the outcomes

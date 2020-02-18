@@ -1,0 +1,14 @@
+package apiTesting;
+
+import org.testng.annotations.Test;
+
+public class FirstAPIScript {
+	
+	@Test
+	public void getRecords()
+	{
+		
+		
+	}
+
+}

@@ -1,0 +1,11 @@
+Feature: Login feature
+
+  Scenario Outline: To test login scenario with multiple test data
+    Given Application is up and running
+    When I enter valid <username> and <password>
+    Then I should be logged in to the application
+
+    Examples: 
+      | username | password |
+      | admin    | admin123 |
+      | admin    | admin123 |

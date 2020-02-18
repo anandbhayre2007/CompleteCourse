@@ -1,0 +1,14 @@
+package advanceSeleniumConcepts;
+
+import org.testng.annotations.Test;
+
+public class ParallelExceution {
+	
+	@Test
+	public void test1()
+	{
+		
+		
+	}
+
+}

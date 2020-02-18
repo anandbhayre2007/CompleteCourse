@@ -1,0 +1,16 @@
+package apiTesting;
+
+import org.testng.annotations.Test;
+
+public class LearnSoftAssert {
+	
+	@Test
+	public void test1()
+	{
+		
+		
+		
+	}
+	
+
+}

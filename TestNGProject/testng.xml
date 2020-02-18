@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automation Suite">
+  <test thread-count="5" name="suite configuration">
+    <classes>
+      <class name="suite.SuiteInitializationAndTeardow"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="Module 1">
+    <classes>
+      <class name="module1.Module1InitializationAndTeardown"/>
+      <class name="module1.Test1Module1"/>
+      <class name="module1.Test2Module1"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="Module 2">
+    <classes>
+      <class name="module2.Module2InitializationAndTeardown"/>
+      <class name="module2.Test1Module2"/>
+      <class name="module2.Test2Module2"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="Module 3">
+    <classes>
+      <class name="module3.Module3InitializationAndTeardown"/>
+      <class name="module3.Test1Module3"/>
+      <class name="module3.Test2Module3"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

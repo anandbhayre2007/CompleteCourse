@@ -1,0 +1,42 @@
+package stepDefinition;
+
+import org.junit.Assert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+
+public class Steps {
+	
+	WebDriver dr;
+	
+	@Given("^Application is up and running$")
+	public void application_is_up_and_running()  {
+	    
+		System.setProperty("webdriver.chrome.driver", "D:\\Drivers\\chromedriver.exe");
+		dr= new ChromeDriver();
+		dr.manage().window().maximize();
+		dr.get("https://opensource-demo.orangehrmlive.com/");
+		
+	}
+
+	@When("^I enter username and password$")
+	public void i_enter_username_and_password()  {
+	   
+		dr.findElement(By.xpath("//input[@name='txtUsername']")).sendKeys("Admin");
+		dr.findElement(By.xpath("//input[@name='txtPassword']")).sendKeys("admin123");
+		dr.findElement(By.xpath("//input[@name='Submit']")).click();
+		
+	}
+
+	@Then("^I should be logged in to the application$")
+	public void i_should_be_logged_in_to_the_application() {
+		
+		Assert.assertEquals("OrangeHRM", dr.getTitle());
+	   
+	}
+
+}

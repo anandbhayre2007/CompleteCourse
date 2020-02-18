@@ -1,0 +1,22 @@
+package apiTesting;
+
+import org.testng.annotations.Test;
+
+import io.restassured.RestAssured;
+import io.restassured.http.Method;
+
+public class FirstAPIScript {
+	
+	@Test
+	public void getRecords()
+	{
+		RestAssured.baseURI = "http://dummy.restapiexample.com/api/v1/employee/"+id;
+		request = RestAssured.given();
+		request.header("Content-Type", "application/json");
+		response = request.request(Method.GET);
+		statusCode = response.getStatusCode();
+		
+		
+	}
+
+}

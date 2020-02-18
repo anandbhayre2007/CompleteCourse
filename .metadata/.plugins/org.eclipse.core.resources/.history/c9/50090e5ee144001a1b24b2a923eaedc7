@@ -1,0 +1,12 @@
+package advanceSeleniumConcepts;
+
+public class ParallelExceution {
+	
+	@Test
+	public void test1()
+	{
+		
+		
+	}
+
+}

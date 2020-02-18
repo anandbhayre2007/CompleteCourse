@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="163913" started-at="2020-02-01T11:03:33Z" finished-at="2020-02-01T11:06:17Z">
+    <groups>
+    </groups>
+    <test name="Test 1" duration-ms="40530" started-at="2020-02-01T11:03:33Z" finished-at="2020-02-01T11:04:13Z">
+      <class name="advanceSeleniumConcepts.ParallelExceution">
+        <test-method status="PASS" signature="test1()[pri:0, instance:advanceSeleniumConcepts.ParallelExceution@28d25987]" name="test1" duration-ms="40480" started-at="2020-02-01T16:33:33Z" finished-at="2020-02-01T16:34:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- advanceSeleniumConcepts.ParallelExceution -->
+    </test> <!-- Test 1 -->
+    <test name="Test 2" duration-ms="51836" started-at="2020-02-01T11:04:14Z" finished-at="2020-02-01T11:05:05Z">
+      <class name="advanceSeleniumConcepts.ParallelExceution">
+        <test-method status="PASS" signature="test1()[pri:0, instance:advanceSeleniumConcepts.ParallelExceution@1a968a59]" name="test1" duration-ms="51831" started-at="2020-02-01T16:34:14Z" finished-at="2020-02-01T16:35:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- advanceSeleniumConcepts.ParallelExceution -->
+    </test> <!-- Test 2 -->
+    <test name="Test 3" duration-ms="71234" started-at="2020-02-01T11:05:06Z" finished-at="2020-02-01T11:06:17Z">
+      <class name="advanceSeleniumConcepts.ParallelExceution">
+        <test-method status="PASS" signature="test1()[pri:0, instance:advanceSeleniumConcepts.ParallelExceution@4dfa3a9d]" name="test1" duration-ms="71229" started-at="2020-02-01T16:35:06Z" finished-at="2020-02-01T16:36:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- advanceSeleniumConcepts.ParallelExceution -->
+    </test> <!-- Test 3 -->
+  </suite> <!-- Suite -->
+</testng-results>
